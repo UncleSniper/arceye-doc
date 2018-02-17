@@ -27,4 +27,5 @@ case $# in
 		;;
 esac
 
-javadoc "$visibility" -windowtitle "ArcEye $title API" @argfile
+javadoc "$visibility" -windowtitle "ArcEye $title API" @argfile &&
+sed -i '/ dl dd,/,/^}$/d' doc/stylesheet.css
