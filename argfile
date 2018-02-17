@@ -1,0 +1,7 @@
+-Xdoclint:all
+-source 1.7
+-subpackages org.unclesniper.arceye
+-quiet
+-d doc
+-link https://docs.oracle.com/javase/7/docs/api/
+-sourcepath ../stage/src/main/java
