@@ -3,5 +3,5 @@
 -subpackages org.unclesniper.arceye
 -quiet
 -d doc
--link https://docs.oracle.com/javase/7/docs/api/
+-link https://docs.oracle.com/javase/8/docs/api/
 -sourcepath ../stage/src/main/java
