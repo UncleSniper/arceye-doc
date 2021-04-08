@@ -1,5 +1,5 @@
 -Xdoclint:all
--source 1.7
+-source 1.8
 -subpackages org.unclesniper.arceye
 -quiet
 -d doc
